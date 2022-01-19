@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <title>Maquetacion resposive</title>
+    <link rel="icon" type="favicon/x-icon" href="img/supertux.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+    <!--Cabecera-->
+    <header>
+        <div class="wrap">
+            <div id="logo">
+                <span class="engrane">S</span>
+                <h3>BLOG</h3>
+            </div>
+
+            <nav id=menu>
+
+                <ul>
+                    <li><a href="">INICIO</a> </li>
+                    <li><a href="">BLOG</a> </li>
+                    <li><a href="">FORMACIÓN</a> </li>
+                    <li><a href="">CONTACTO</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+
+    <section class="wrap">
+        <!--BANNER-->
+        <section id="info">
+            <div id="banner">
+                <h1>1er maquetación de practica con CSS3</h1>
+            </div>
+
+            <!--Tarjetas-->
+            <div id="tarjetas">
+                <div class="tarjeta">
+                    <p class="icono">H</p>
+                    <h2 class="categoria">Desarollo Web</h2>
+                    <p class="descripcion">Aprende los principales lenguajes para desarrollar webs. ¡Conviertete en
+                        un webmaster!</p>
+                </div>
+
+                <div class="tarjeta">
+                    <p class="icono">_</p>
+                    <h2 class="categoria">Sistemas Operativos</h2>
+                    <p class="descripcion">Aprende a administrar sistemas de Linux y Windows</p>
+                </div>
+
+                <div class="tarjeta">
+                    <p class="icono">S</p>
+                    <h2 class="categoria">Hardware</h2>
+                    <p class="descripcion">Conoce los entresijos del hardware</p>
+                </div>
+
+                <div class="tarjeta">
+                    <p class="icono">u</p>
+                    <h2 class="categoria">Redes e internet</h2>
+                    <p class="descripcion">Aprende a configurar y administrar redes informaticas y servidores</p>
+                </div>
+
+                <div class="tarjeta">
+                    <p class="icono">a</p>
+                    <h2 class="categoria">Base de datos</h2>
+                    <p class="descripcion">Aprende a montar y administrar una base de datos</p>
+                </div>
+
+            </div>
+
+        </section>
+        <!--Barra lateral-->
+        <div class="clearfix"></div>
+        <aside id="lateral">
+            <h3>BUSCAR</h3>
+            <div id="buscar">
+                <form>
+                    <input type="text">
+                    <input type="button" value="L" class="icono2">
+                </form>
+            </div>
+            <h3>LOGIN</h3>
+            <div id="login" class="caja-lateral">
+                <form>
+                    <!--EN ESTA SECCION PUSE UN DIV CON ID A CADA UNO DE LOS ELEMENTOS DEL LOGIN
+            EN TOEIRA FUNUIONARON PERO TENGOQ UE CORREGRILOS, EN TODO CASO, ELIMINARLOS-->
+                    <div id="usuario">
+                        <label for="usario" class="icono2">U</label>
+                        <input type="email" name="usuario">
+                    </div>
+                    <div id="password">
+                        <label for="password" class="icono2">w</label>
+                        <input type="password" name="password">
+                    </div>
+                    <div id="botones">
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="limpiar">
+                    </div>
+                    <a href="#">Registrate aqui</a>
+                    <a href="#">Has olvidado la contraseña?</a>
+                </form>
+            </div>
+            <h3>REDES SOCIALES</h3>
+            <div id="redes" class="caja-lateral">
+                <div id="facebook">
+                    <a href="">f</a>
+                    <p class="textooculto">Facebook</p>
+                </div>
+                <div id="twiter">
+                    <a href="">t</a>
+                    <p class="textooculto">Twitter</p>
+                </div>
+                <div id="youtube">
+                    <a href="">y</a>
+                    <p class="textooculto">Youtube</p>
+                </div>
+            </div>
+            <h3>COLABORADORES</h3>
+            <div id="colaboradores" class="caja-lateral"></div>
+        </aside>
+
+        <!--SECCION DE ARTIUCLOS-->
+        <section id="articulos">
+            <h3>ULTIMOS ARTICULOS</h3>
+
+            <article class="articulo">
+                <div id="datos">
+                    <span>Fecha: 09 de enero del 2021</span>
+                    <span>Categoria: Pruebas</span>
+                </div>
+                <h4><a href="">Titulo del articulo</a></h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tristique, felis ac vehicula
+                    laoreet, elit velit accumsan arcu, eu condimentum mauris est sed nunc. Nam eleifend scelerisque enim
+                    vitae tempor. In ac ante nulla. Curabitur ut maximus odio.
+                </p>
+            </article>
+
+            <article class="articulo">
+                <div id="datos">
+                    <span>Fecha: 09 de enero del 2021</span>
+                    <span>Categoria: Pruebas</span>
+                </div>
+                <h4><a href="">Titulo del articulo</a></h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tristique, felis ac vehicula
+                    laoreet, elit velit accumsan arcu, eu condimentum mauris est sed nunc. Nam eleifend scelerisque enim
+                    vitae tempor. In ac ante nulla. Curabitur ut maximus odio.
+                </p>
+            </article>
+
+            <article class="articulo">
+                <div id="datos">
+                    <span>Fecha: 09 de enero del 2021</span>
+                    <span>Categoria: Pruebas</span>
+                </div>
+                <h4><a href="">Titulo del articulo</a></h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tristique, felis ac vehicula
+                    laoreet, elit velit accumsan arcu, eu condimentum mauris est sed nunc. Nam eleifend scelerisque enim
+                    vitae tempor. In ac ante nulla. Curabitur ut maximus odio.
+                </p>
+            </article>
+
+            <article class="articulo">
+                <div id="datos">
+                    <span>Fecha: 09 de enero del 2021</span>
+                    <span>Categoria: Pruebas</span>
+                </div>
+                <h4><a href="">Titulo del articulo</a></h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tristique, felis ac vehicula
+                    laoreet, elit velit accumsan arcu, eu condimentum mauris est sed nunc. Nam eleifend scelerisque enim
+                    vitae tempor. In ac ante nulla. Curabitur ut maximus odio.
+                </p>
+            </article>
+
+            <article class="articulo">
+                <div id="datos">
+                    <span>Fecha: 09 de enero del 2021</span>
+                    <span>Categoria: Pruebas</span>
+                </div>
+                <h4><a href="">Titulo del articulo</a></h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tristique, felis ac vehicula
+                    laoreet, elit velit accumsan arcu, eu condimentum mauris est sed nunc. Nam eleifend scelerisque enim
+                    vitae tempor. In ac ante nulla. Curabitur ut maximus odio.
+                </p>
+            </article>
+            <article id="blog">
+                <a href="">IR AL BLOG</a>
+            </article>
+        </section>
+    </section>
+
+    <!--PIE DE PAGINA-->
+
+    <footer>
+        <div class="clearfix"></div>
+        <div class="wrap">
+            <div id=menu_footer>
+                <h5>MENU</h5>
+                <ul>
+                    <li><a href="">INICIO</a> </li>
+                    <li><a href="">BLOG</a> </li>
+                    <li><a href="">FORMACIÓN</a> </li>
+                    <li><a href="">CONTACTO</a></li>
+                </ul>
+            </div>
+
+            <div id="localizacion">
+                <h5>¿DONDE ESTAMOS?</h5>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1880.198521421722!2d-99.17422998748359!3d19.52456043510924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f81de17f46c7%3A0xb8cca28feebb8528!2sAv.%207-A%2090-84%2C%20Santa%20Rosa%2C%20Gustavo%20A.%20Madero%2C%2007620%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses-419!2smx!4v1610390073632!5m2!1ses-419!2smx"
+                    width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                    tabindex="0"></iframe>
+            </div>
+            <div id="info">
+                <h5>DESARROLLADO CON:</h5>
+                <p>
+                    <img src="img/html5-badge-h-css3-graphics-multimedia-performance-semantics.png" alt="HTML5"
+                        title="HTML5">
+                </p>
+
+                <h5>OPTIMIZADO PARA</h5>
+                <p id="navegadores">
+                    <a href="#">
+                        <img src="img/firefox-icon.png" alt="Firefox" title="Firefox">
+                    </a>
+                    <a href="#">
+                        <img src="img/chrome.png" alt="Chrome" title="Google Chrome">
+                    </a>
+                    <a href="#">
+                        <img src="img/Opera_256x256.png" alt="Opera" title="Opera">
+                    </a>
+                    <a href="#">
+                        <img src="img/safari.png" alt="Safari" title="Safari">
+                    </a>
+                    <a href="#">
+                        <img src="img/android.png" alt="Android" title="Android">
+                    </a>
+                    <a href="#">
+                        <img src="img/ios.png" alt="IOs" title="iOs">
+                    </a>
+                </p>
+                <h5>MAS DEL AUTOR</h5>
+                <p>
+                    <a href='https://github.com/Misael-04?tab=repositories'>
+                        &copy; M. Aguilar
+                        <img id="github-img" src="img/GitHub-Mark-Light-120px-plus.png"
+                    </a>
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

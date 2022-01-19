@@ -1,0 +1,217 @@
+@media (max-width: 1250px){
+    .wrap{
+        width: 90%;
+        margin: 0px auto;
+    }
+
+    .tarjeta{
+        width: 17%;
+        margin: 1.3%
+    }
+
+    #articulos{
+        width: 58%;
+    }
+
+    .articulo #blog{
+        width: 97%;
+    }
+
+    footer .wrap > div{
+        width: 24%;
+    }
+
+    #navegadores a img{
+        width: 14%;
+    }
+
+    footer h5{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 1000px){
+    .categoria{
+        font-size: 15px;
+    }
+    
+    .descripcion{
+        font-size: 13px;
+        margin: 0px auto;
+        text-align: center;        
+    }
+
+    footer h5{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 900px){
+    #articulos{
+        width: 55%;
+    }
+
+    footer .wrap > div{
+        width: 23%;
+    }
+}
+
+@media (max-width: 840px){
+    #lateral{
+        width: 30%;
+    }
+
+    #articulos{
+        width: 60%;
+    }
+
+    .articulo a{
+        font-size: 15px;
+    }
+    
+    footer .wrap > div{
+        width: 20%;
+    }
+}
+
+
+
+@media (max-width: 840px){
+input[type="text"],
+ input[type="email"], 
+ input[type="password"]{
+    padding-left: 5px;
+ }
+
+ input[type="reset"]{
+     display: none;
+ }
+
+ #lateral h3{
+     height: auto;
+     font-size: 25px;
+ }
+
+ .articulo #datos{
+     float:none;
+     text-align: center;
+     border-radius: 0px 0px 0px 0px;
+     margin-bottom: 5px;
+ }
+
+ .articulo a{
+     font-size: 20px;   
+ }
+
+ footer .wrap > div{
+    width: 28%;
+    margin: 15px;
+    margin-top: 30px;
+}
+
+#info img{
+    width: 100%;
+} 
+}
+
+@media (max-width: 723px){
+    header{
+        height: 135px;
+        width: 100%;
+        padding-top: 20px;
+    }
+   
+#logo{
+    clear: both;
+    width: 200px;
+    float: none;
+    margin: 0px auto;
+    
+}
+#menu{
+        clear: both;    
+        float: none;
+        width: 68%;
+        margin: 0px auto;
+    }
+#banner h1{
+    font-size: 30px;
+    margin: 32px auto
+}
+}
+
+@media (max-width: 704px){
+    #menu{
+        width: 55%;
+       
+    }
+    #menu ul li{
+        margin-left: 10px;
+        margin-right: 10px; 
+        font-size: 20px;       
+    }
+
+    .tarjeta .descripcion{
+        display: none;
+    }
+
+    .tarjeta{
+        height: auto;
+    }
+
+    #lateral h3 {
+        
+        font-size: 20px;
+    }
+}
+
+
+
+ @media (max-width: 428px){
+    
+    #menu {
+        width: 84%;
+        margin-top: 23px;
+      }
+    
+    #menu ul li{
+        line-height: 30px;
+    }
+
+    #banner h1 {
+        font-size: 23px;
+      }
+
+      .tarjeta {
+        width: 16%;
+      }
+
+      .categoria {
+        font-size: 12px;
+        margin: 1.7%;
+      }
+
+      #lateral {
+        width: 90%;
+        margin-top: 35px;
+      }
+
+      #articulos {
+        width: 97%;
+        margin-top: -100px;
+      }
+
+      footer .wrap div{
+        width: 90%;
+      }
+
+      footer {
+          height: auto;
+      }
+
+      #github-img{
+        width: 20px !important;
+    }
+
+
+ }
